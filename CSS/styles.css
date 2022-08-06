@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "OpenS";
+  src: url("/Assets/Fonts/OpenSans-VariableFont_wdth\,wght.woff2");
+}
+body {
+  font-family: 'OpenS', Arial, sans-serif !important;
+}
+
+:root {
+  --meso-color: #01633B;
+  --meso-color-btnhover: #007041;
+  --title-color: #333333;
+  --content-text-color: #666666;
+}
+
+.btn-meso {
+  display: inline-flex;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 10px 1.375rem;
+  border-radius: 10px;
+  background-color:  var(--meso-color);
+}
+.btn-meso:hover { color: white; background-color: var(--meso-color-btnhover); }
