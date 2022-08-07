@@ -104,3 +104,185 @@
 
 .s-1 .content-button .btn-meso:hover { transform: scale(1.08); }
 /*-------------*/
+
+/*SECOND SECTION*/
+.s-2 { margin-top: 10rem; }
+.s-2 .form-container {
+  padding: 0 5rem;
+}
+.s-2 .col { padding: 0 0 0 2rem; }
+.s-2 .form-title { padding-left: 2rem; margin-bottom: 1rem; }
+.s-2 .form-title h1 { font-size: 1.625rem; }
+.s-2 .form-textarea { padding: 2rem 0 1rem 2rem; }
+.s-2 input, .s-2 textarea {
+  border-radius: 7px;
+  font-size: 0.875rem;
+  background-color: #f5f5f5;
+  border: none;
+  outline: none;
+  padding: 1rem;
+  width: 100%;
+}
+/*--------------*/
+
+/*THIRD SECTION*/
+.s-3 {
+  background-image: url("/Assets/Images/tour-1.png");
+
+  min-height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 1.6875rem 0 !important;
+  margin-top: 4.375rem;
+}
+.s-3 a { color: white; text-decoration: none; transition: all ease-in-out 135ms; }
+.s-3 a:hover{ color: white; }
+.s-3 .s3-title-container { align-self: center; margin: 3.25rem 0 0.875rem 0; }
+.s-3 .s3-title h1 { font-weight: 700 !important; font-size: 2.1875rem; }
+
+.s-3 .s3-links a:hover{ color: white; font-size: 1.875rem; }
+.s-3 .s3-links { margin: 0; list-style: none; padding: 0; font-size: 1.5625rem; }
+.s-3 .s3-links li { margin-bottom: 0.875rem; }
+.s-3 .s3-links li:first-child { margin: 3.25rem 0 0.875rem 0; }
+.s-3 .s3-links li:last-child { margin-bottom: 3.5rem; }
+/*-------------*/
+
+/*FOURTH SECTION*/
+.s-4 { margin: 3.6875rem 4.375rem auto 4.375rem !important; }
+.s-4 h1 { color: var(--title-color); font-size: 1.875rem; font-weight: 700; }
+.s-4 .title-1 {
+  padding-bottom: 1.6875rem;
+}
+.s-4 .meso-info { padding: 1.6875rem 0; margin-bottom: 1.75rem; }
+.s-4 .meso-info .col:not(:last-child) { margin-right: 4.375rem; padding: 0; }
+.s-4 .meso-info .col:last-child { padding: 0; }
+.s-4 .meso-info img { margin: 1.4375rem auto; width: 4.375rem; }
+.s-4 .meso-info p {
+  font-size: 0.875rem;
+}
+.s-4 .meso-info .title {
+  color: var(--title-color);
+  font-weight: 900;
+}
+.s-4 .meso-info .sub-title {
+  color: var(--content-text-color);
+}
+.s-4 .title-2, .s-4 .meso-regulations { padding: 1.6875rem 0; }
+.s-4 .meso-regulations .col:not(:last-child) { margin-right: 4.375rem; padding: 0; }
+.s-4 .meso-regulations .col:last-child { padding: 0; }
+.s-4 .meso-regulations h3 { font-size: 1.25rem; font-weight: 700; }
+.s-4 .meso-regulations img {
+  width: 52%;
+  margin-top: 1rem;
+  -webkit-box-shadow: var(--meso-img-box-shadow);
+  box-shadow: var(--meso-img-box-shadow);
+}
+/*--------------*/
+
+/*FIFTH SECTION*/
+.s-5 {
+  color: white;
+  padding: 1.6875rem 0;
+  background-color: var(--meso-color);
+  font-weight: 700;
+}
+.s-5 .title, .s-5 .content-text { margin: 0 25%; margin-bottom: 2.5rem; }
+.s-5 .title h2 { font-size: 1.625rem; }
+.s-5 .content-text { font-size: 0.875rem; }
+.s-5 .carousel { padding-bottom: 3rem; }
+.s-5 .carousel p { font-size: 1.125rem; }
+.s-5 .carousel img { width: 100%; }
+.s-5 .carousel-item .col { padding: 1.25rem 2.5rem; }
+/*-------------*/
+
+/*SIXTH SECTION*/
+.s-6 .more-info, .s-6 .employment-exchange { padding: 2.625rem 0; }
+.s-6 .row { padding: 1.6875rem 0; width: 80%; }
+
+.s-6 .more-info .row .col:first-child { max-width: 46%; margin-right: 3.875rem; color: var(--title-color); }
+.s-6 .employment-exchange .row .col:last-child { max-width: 46%; margin-left: 3.875rem; color: white; }
+.s-6 .more-info .row .col:first-child h1, .s-6 .employment-exchange .row .col:last-child h1 { font-size: 1.875rem; font-weight: 800; }
+.s-6 .more-info .row .col:first-child h5, .s-6 .employment-exchange .row .col:last-child h5 { margin-bottom: 2.1875rem; font-size: 1rem; font-weight: 200; }
+.s-6 .more-info .row .col:first-child a, .s-6 .employment-exchange .row .col:last-child a { font-size: 1.375rem; transition: all ease-in-out 200ms; }
+.s-6 .more-info .row .col:first-child a:hover, .s-6 .employment-exchange .row .col:last-child a:hover { font-size: 1.375rem; transform: scale(1.08); }
+
+.s-6 .employment-exchange { background-color: var(--meso-color); color: white !important; }
+
+.s-6 .more-info .row .col:last-child, .s-6 .employment-exchange .row .col:first-child {
+  height: 25rem;
+  padding: 0;
+}
+.s-6 .info-carousel .carousel-item > div {
+  width: 100%;
+  height: 400px;
+  float: left;
+  background-position: 50%;
+  background-size: cover;
+  cursor: pointer;
+}
+.s-6 .more-info .info-carousel .info-carousel-img-1 { background-image: url("/Assets/Images/MesoInfo-1.png"); }
+.s-6 .more-info .info-carousel .info-carousel-img-2 { background-image: url("/Assets/Images/MesoInfo-2.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-3 { background-image: url("/Assets/Images/MesoInfo-3.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-4 { background-image: url("/Assets/Images/MesoInfo-4.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-5 { background-image: url("/Assets/Images/MesoInfo-5.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-6 { background-image: url("/Assets/Images/MesoInfo-5.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-7 { background-image: url("/Assets/Images/MesoInfo-7.png"); }
+.s-6 .more-info .info-carousel .info-carousel-img-8 { background-image: url("/Assets/Images/MesoInfo-8.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-9 { background-image: url("/Assets/Images/MesoInfo-9.jpg"); }
+.s-6 .more-info .info-carousel .info-carousel-img-10 { background-image: url("/Assets/Images/MesoInfo-10.jpg"); }
+
+.s-6 .employment-exchange .info-carousel .info-carousel-img-1 { background-image: url("/Assets/Images/informatica-boton.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-2 { background-image: url("/Assets/Images/sistemas.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-3 { background-image: url("/Assets/Images/electronica.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-4 { background-image: url("/Assets/Images/boton-administracion-educativa.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-5 { background-image: url("/Assets/Images/boton-pedagogia.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-6 { background-image: url("/Assets/Images/sistemas.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-7 { background-image: url("/Assets/Images/electronica.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-8 { background-image: url("/Assets/Images/merca-boton.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-9 { background-image: url("/Assets/Images/boton-administracion-educativa.png"); }
+.s-6 .employment-exchange .info-carousel .info-carousel-img-10 { background-image: url("/Assets/Images/ministerio\ de\ educación.jpg"); }
+
+.s-6 .carousel .carousel-indicators {
+  margin-bottom: -2rem;
+}
+.s-6 .employment-exchange .carousel .carousel-control-next, .s-6 .employment-exchange .carousel .carousel-control-prev { filter: invert(); }
+.s-6 .more-info .carousel .carousel-indicators button { background-color: #444; }
+/*-------------*/
+
+/*SEVENTH SECTION*/
+.s-7 .row {
+  padding: 0 8.75rem;
+  margin-top: 3.0625rem;
+  max-width: 80%;
+  color: var(--title-color);
+}
+.s-7 .row .title h2 {
+  font-size: 1.625rem;
+  font-weight: 600;
+  padding-bottom: 1.875rem;
+}
+.s-7 .row .content p, .s-7 .row .extra-content p{ font-size: 1rem; }
+.s-7 .row .content p { padding-bottom: 0.625rem; }
+.s-7 .row .col:first-child { z-index: 1; padding: 0; margin-right: 2.875rem; }
+.s-7 .row .col:first-child > div { padding: 1.25rem 0 0 0; margin-left: 5rem; }
+.s-7 .social-networks { margin-top: 2.15rem; margin-bottom: 5rem; }
+.s-7 .social-networks a {
+  color: var(--content-text-color);
+  font-size: 2.25rem;
+  margin: 0 1rem;
+  transition: all ease-in-out 200ms;
+}
+.s-7 .social-networks a:hover {
+  color: var(--meso-social-network-hover-color);
+  font-size: 2.5rem;
+}
+
+.s-7 .row .image-container { z-index: -1; }
+.s-7 .row .col:last-child img {
+  width: 216%;
+  margin-left: -120%;
+}
+/*---------------*/

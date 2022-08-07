@@ -9,11 +9,14 @@ body {
 :root {
   --meso-color: #01633B;
   --meso-color-btnhover: #007041;
+  --meso-social-network-hover-color: #007f04;
   --title-color: #333333;
   --content-text-color: #666666;
+  --meso-img-box-shadow: 11px 11px 34px -7px rgba(0,0,0,0.52);
 }
 
 .btn-meso {
+  border: none;
   display: inline-flex;
   font-weight: 600;
   color: white;
@@ -23,3 +26,28 @@ body {
   background-color:  var(--meso-color);
 }
 .btn-meso:hover { color: white; background-color: var(--meso-color-btnhover); }
+
+.btn-meso-white {
+  border: none;
+  display: inline-flex;
+  font-weight: 600;
+  color: var(--meso-color);
+  text-decoration: none;
+  padding: 10px 1.375rem;
+  border-radius: 10px;
+  background-color: white;
+}
+.btn-meso-white:hover { color: var(--meso-color); background-color: #e2e2e2; }
+
+footer {
+  font-size: 14px;
+  color: white;
+  background-color: #034732;
+  padding: 4% 0 0 0;
+}
+footer .row { margin: 0 10%; }
+footer .row p { margin: 0; }
+footer .row .title { margin-bottom: 0.625rem; font-weight: 700; }
+footer .all-rights {
+  padding: 3% 0 1% 0;
+}
