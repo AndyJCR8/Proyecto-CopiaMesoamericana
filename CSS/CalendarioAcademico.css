@@ -1,0 +1,23 @@
+.calendars-container { width: 80%; margin: 0 auto; padding: 3.375rem 0; }
+.calendars-container .title {
+  margin: 0 auto;
+  width: 75%;
+  padding: 1.6875rem 0;
+}
+.calendars-container .title h1 {
+  color: var(--title-color);
+  font-size: 1.625rem;
+}
+
+.calendars-container .calendars {
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.calendars-container .calendars img {
+  padding: 1.6875rem 0 0 0;
+  width: 90%;
+}
+.calendars-container .calendars .col:last-child img { width: 37%; }
+.calendars-container .calendars .col:last-child { grid-column: span 2; }

@@ -1,0 +1,25 @@
+.news-container { padding: 3.375rem 0; }
+.news-container > .title, .news-container > .news { padding: 1.6875rem 0; width: 77%; margin: 0 auto; }
+.news-container .title h1 { color: var(--title-color); font-size: 1.875rem; }
+
+.news-container .news {
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.6875rem;
+}
+.news-container .news .title { font-weight: 600; font-size: 18px; color: var(--title-color); }
+.news-container .news .date, .news-container .news .content-text { font-size: 14px; color: var(--content-text-color); }
+
+.news-container .news .article .content { padding: 1.1875rem; }
+.news-container .news .article {
+  height: min-content;
+  margin-bottom: 3.75rem; 
+  border: 1px solid #d8d8d8;
+}
+.news-container .news .article-image-container {
+  min-height: 12.5rem;
+}
+.news-container .news .article-image {
+  background-size: cover;
+  min-height: inherit;
+  background-repeat: no-repeat;
+}
