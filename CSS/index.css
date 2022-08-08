@@ -152,8 +152,32 @@
   float: left;
   background-position: 50%;
   background-size: cover;
-  cursor: pointer;
 }
+
+.s-6 .info-carousel .carousel-item-info {
+  background-color: rgba(0, 0, 0, 0.37);
+  color: white;
+  height: inherit;
+  padding: 6.125rem 4.3125rem;
+  /*padding: 75px 4.3125rem;*/
+}
+
+.s-6 .info-carousel .carousel-item-info .btn-container { margin-top: 1.25rem; }
+
+.s-6 .info-carousel .carousel-item-info a:not(.btn-meso-white) { text-decoration: none; color: white; }
+.s-6 .info-carousel .carousel-item-info .title { font-size: 1.625rem; font-weight: 700; }
+.s-6 .info-carousel .carousel-item-info .content { font-size: 0.875rem; font-weight: 400; }
+
+.s-6 .info-carousel .carousel-item-info .btn-meso-white { font-size: 1.25rem; position: relative; transition: all ease-in-out 150ms; }
+.s-6 .info-carousel .carousel-item-info .btn-meso-white:hover { background-color: white; padding-right: 40px; }
+.s-6 .info-carousel .carousel-item-info .btn-meso-white i{
+  opacity: 0;
+  position: absolute;
+  left: 70%;
+  transition: all ease-in-out 150ms;
+}
+.s-6 .info-carousel .carousel-item-info .btn-meso-white:hover i { opacity: 1; left: 80%; padding-right: 30px; }
+
 .s-6 .more-info .info-carousel .info-carousel-img-1 { background-image: url("/Assets/Images/MesoInfo-1.png"); }
 .s-6 .more-info .info-carousel .info-carousel-img-2 { background-image: url("/Assets/Images/MesoInfo-2.jpg"); }
 .s-6 .more-info .info-carousel .info-carousel-img-3 { background-image: url("/Assets/Images/MesoInfo-3.jpg"); }
@@ -179,7 +203,6 @@
 .s-6 .carousel .carousel-indicators {
   margin-bottom: -2rem;
 }
-.s-6 .employment-exchange .carousel .carousel-control-next, .s-6 .employment-exchange .carousel .carousel-control-prev { filter: invert(); }
 .s-6 .more-info .carousel .carousel-indicators button { background-color: #444; }
 /*-------------*/
 
@@ -217,3 +240,17 @@
   margin-left: -120%;
 }
 /*---------------*/
+
+/*CAROUSEL BUTTON INDICATORS*/
+.carousel-indicators button{
+  width: 12px !important;
+  height: 12px !important;
+  border-radius: 50%;
+}
+.s-6 .carousel-indicators button {
+  margin: 0 5px;
+  width: 8px !important;
+  height: 8px !important;
+  border-radius: 50%;
+}
+/*--------------------------*/
